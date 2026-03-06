@@ -1,1 +1,23 @@
+# 测试日志文件
+*.log
+test_log/
 
+# 测试报告（pytest/allure）
+reports/
+allure-results/
+allure-report/
+
+# Python 虚拟环境（自动化测试用）
+venv/
+env/
+*.pyc
+__pycache__/
+
+# IDE 配置（PyCharm/VSCode）
+.idea/
+.vscode/
+*.swp
+
+# 临时文件
+*.tmp
+*.bak
